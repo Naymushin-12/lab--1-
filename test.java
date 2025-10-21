@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 public class Test1 {
-    public int sumLastNums(int x) {
+    public int sumLastNums(int x) { //сумма двух последних цифр числа
         int x1=x%10;//получение последней цифры
         x/=10;
         int x2=x%10;//получение предпоследней цифры
