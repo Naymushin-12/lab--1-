@@ -4,7 +4,7 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Test1 test = new Test1();
+        Test test = new Test();
         Scanner scanner= new Scanner(System.in);
         int choice;
         do{
